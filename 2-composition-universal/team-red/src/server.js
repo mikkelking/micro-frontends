@@ -19,6 +19,6 @@ app.get('/:sku?', (req, res) => {
   res.render('layout', { html });
 });
 
-app.listen(3003);
+app.listen(4003);
 console.log(`🔴  team red running. product page is available here:
->> http://127.0.0.1:3003/`);
+>> http://127.0.0.1:4003/`);

@@ -12,6 +12,6 @@ app.use('/green-recos', (req, res) => {
   res.send(renderRecos(req.query.sku));
 });
 
-app.listen(3002);
+app.listen(4002);
 console.log(`💚  team green running. fragments are available here:
->> http://127.0.0.1:3002/green-recos`);
+>> http://127.0.0.1:4002/green-recos`);

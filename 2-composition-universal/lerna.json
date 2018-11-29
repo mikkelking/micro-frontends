@@ -1,0 +1,6 @@
+{
+  "packages": [
+    "team*"
+  ],
+  "version": "0.0.0"
+}
