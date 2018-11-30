@@ -1,6 +1,6 @@
 {
   "packages": [
-    "team*"
+    "team-*", "nginx"
   ],
   "version": "0.0.0"
 }

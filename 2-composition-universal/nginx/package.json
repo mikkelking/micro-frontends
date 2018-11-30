@@ -1,0 +1,17 @@
+{
+  "name": "team-nginx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "./bin/team-nginx -c `pwd`/master.nginx.conf -p `pwd` ",
+    "stop": "./bin/team-nginx -c `pwd`/master.nginx.conf -p `pwd` -s stop",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
